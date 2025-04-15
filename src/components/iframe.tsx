@@ -25,7 +25,6 @@ function Iframe({
                             alt="logo"
                         />
                     )}
-                    {/* <Loader className="" /> */}
                     <Bar />
                 </div>
             )}
