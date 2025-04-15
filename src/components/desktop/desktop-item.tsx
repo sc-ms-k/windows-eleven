@@ -9,7 +9,6 @@ import { DesktopItemContextMenuEmittor } from "@/lib/emittors";
 import { DesktopIcons } from "@/lib/images";
 import { Component } from "../component";
 import { composeEventHandlers } from "@radix-ui/primitive";
-// import { AnimatePresence } from "framer-motion";
 const DraggableWindowBase = dynamic(() =>
     import("../drag-window").then((all) => all.DraggableWindowBase),
 );
